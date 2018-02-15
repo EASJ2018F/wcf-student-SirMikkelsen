@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWebservice", "SOAPWebservice\SOAPWebservice.csproj", "{59CA4793-C3F3-4B98-A449-9D55FC87C3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPWebserviceTests", "SOAPWebserviceTests\SOAPWebserviceTests.csproj", "{7CE795D3-56BE-4098-8145-0C39D4415E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59CA4793-C3F3-4B98-A449-9D55FC87C3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CA4793-C3F3-4B98-A449-9D55FC87C3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CA4793-C3F3-4B98-A449-9D55FC87C3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CA4793-C3F3-4B98-A449-9D55FC87C3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE795D3-56BE-4098-8145-0C39D4415E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE795D3-56BE-4098-8145-0C39D4415E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE795D3-56BE-4098-8145-0C39D4415E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE795D3-56BE-4098-8145-0C39D4415E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD55B50B-E802-4E89-AF36-13AC64D870F5}
+	EndGlobalSection
+EndGlobal
