@@ -111,7 +111,6 @@ namespace SOAPWebservice
             }
         }
 
-
         public IList<Student> GetStudentsByNameDB(string name)
         {
             string selectStr = "select * from student where name LIKE @name";
@@ -153,7 +152,6 @@ namespace SOAPWebservice
             }
         }
 
-
         public int DeletetudentDB(int id)
         {
             
@@ -169,7 +167,6 @@ namespace SOAPWebservice
                 }
             }
         }
-
 
         public int UpdateStudentDB(string name, string className, int room, int id)
         {
