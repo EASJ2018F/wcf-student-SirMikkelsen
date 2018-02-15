@@ -171,8 +171,6 @@ namespace SOAPWebservice
         }
 
 
-    
-
         public int UpdateStudentDB(string name, string className, int room, int id)
         {
             const string insertStudent = "UPDATE Student SET name = @name, className = @className, room = @room Where id = @id";
